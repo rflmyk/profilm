@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="dark">
+<html lang="pt-PT" prefix="og: https://ogp.me/ns#" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./images/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="<%- description %>" />
+    <meta name="robots" content="follow, index, max-snippet:-1, max-image-preview:large" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:title" content="<%- title %>" />
+    <meta property="og:description" content="<%- description %>" />
     <title><%- title %></title>
   </head>
   <body class="dark:bg-gray-900">
@@ -23,7 +28,7 @@
           </span>
           <!-- --> de controle solar.
         </h2>
-        <h3 class="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 dark:text-slate-500">Películas automotiva, residencial e comercial localizada na cidade de Santa Luzia, Minas Gerais. Atuando na área desde o ano de 2011. Hoje contamos com o mais avançado sistema de recorte computadorizado de películas.</h3>
+        <h3 class="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 dark:text-slate-500"><%- description %></h3>
         <div class="mt-10 flex justify-center gap-x-6">
           <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 dark:bg-slate-700 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900" href="https://wa.me/<%- contact.whatsapp %>">Dar um oi</a>
           <a class="group inline-flex ring-1 items-center justify-center rounded-full py-2 px-4 text-sm focus:outline-none ring-slate-200 dark:text-slate-400 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300" href="<%- url.instagram %>">

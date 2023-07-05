@@ -12,7 +12,8 @@ export default defineConfig({
       inject: {
         data: {
           title: "Profilm - Películas Santa Luzia | Películas 3M",
-          description: "",
+          description:
+            "Películas automotiva, residencial e comercial localizada na cidade de Santa Luzia, Minas Gerais. Atuando na área desde o ano de 2011. Hoje contamos com o mais avançado sistema de recorte computadorizado de películas.",
           contact: {
             whatsapp: "553187831017",
             phone: "3131641515",
