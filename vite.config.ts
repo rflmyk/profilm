@@ -11,7 +11,7 @@ export default defineConfig({
       template: "./index.html",
       inject: {
         data: {
-          title: "Profilm - Películas Santa Luzia | Películas 3M",
+          title: "Profilm - Películas, Insulfim, PPF Santa Luzia",
           description:
             "Películas automotiva, residencial e comercial localizada na cidade de Santa Luzia, Minas Gerais. Atuando na área desde o ano de 2011. Hoje contamos com o mais avançado sistema de recorte computadorizado de películas.",
           contact: {
